@@ -9,7 +9,7 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'MarqueeLabel'
-  s.version      = '1.0.0'
+  s.version      = '1.0'
   s.summary      = 'MaqueeLabel - Objective C'
 
   s.homepage     = 'https://github.com/mursel-sahin/MarqueeLabel'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'BSD', :text => license }
 
   s.source       = { :git => 'https://github.com/mursel-sahin/MarqueeLabel.git', :tag => "v#{s.version}" }
-  s.source_files = 'MarqueeLabel.{h,m}'
+  s.source_files = 'marqueelabel/MarqueeLabel.{h,m}'
   s.framework    = 'SystemConfiguration'
 
   s.requires_arc = true
