@@ -9,7 +9,7 @@ EOF
 
 Pod::Spec.new do |s|
   s.name         = 'MarqueeLabel'
-  s.version      = '1.0'
+  s.version      = '1.1'
   s.summary      = 'MaqueeLabel - Objective C'
 
   s.homepage     = 'https://github.com/mursel-sahin/MarqueeLabel'
